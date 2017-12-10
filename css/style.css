@@ -1,0 +1,260 @@
+body {
+    margin: 0;
+    line-height:1 !important; 
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+#header-top{
+	position: relative !important;
+    top: 0;
+    box-shadow: 0 0 85px rgba(0,0,0,0.85);
+    transform: translateZ(0);
+    background-color: #011e41;
+    height: auto;
+}
+#header-inner{
+	    margin: 0 auto;
+	    max-width: 1080px;
+	    display: block;
+    	height: 100px;
+}
+#header-left{
+	    margin-top: auto;
+	    bottom: 0;
+	    width: 80%;
+	    float: left;
+
+}
+#header-right{
+		margin-top: auto;
+	    bottom: 0;
+	    width: 20%;
+	    float:right;
+	    text-align: right;
+}
+#name {
+    color: white;
+    font-size: 32px;
+    line-height: 1;
+    font-family:  sans-serif;
+    font-weight: bold;
+    padding-bottom: 30px;
+    padding-top: 10px;
+	text-decoration:none;
+}
+#menu ul{
+    color: white;
+    margin: 0;
+    padding:0;
+    text-align: left;
+}
+#menu li{
+	display: inline;
+	margin-left: 100px;
+
+}
+#menu a{
+	font-family: Arial,Helvetica,sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #ffffff;
+	text-decoration: none;
+
+}
+#menu a:hover{
+    color: #E9E600;
+}
+#rshu_logo{
+	padding: 5px;
+}
+#content{
+	width: 100%;
+	margin: 0 auto;
+	background: #EFEFEC;
+	height: auto;
+}
+#slaider{
+	    margin: 0 auto;
+	    max-width: 1080px;
+	    display: block;
+	    background: #ffffff;
+}
+#main-content{
+	height: 100%;
+	background: #ffffff;
+	margin:0 auto;
+	padding-top: 10px;
+	width: 1080px;
+	display: table;
+
+}
+.field-item{
+	width: 250px;
+	margin:0 10px;
+	margin-top: 10px;
+	border-top: 5px solid #0A2337;
+	float: left;
+}
+.field-name{
+	padding-top: 10px;
+
+}	
+.field-name a{
+	font-family: Arial,Helvetica,sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    color: #0a2337;
+	text-decoration: none;
+	display: block;
+	padding-bottom: 10px;
+	height: 40px;
+}
+.field-name a:hover{
+    color: #3B0041;
+    text-decoration:underline;
+}
+.field-name img{
+	padding: 10px;
+}
+.field-text {
+	font-family: Arial,Helvetica,sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #0a2337;
+}
+
+#footer{
+	background-color: #10284A;
+	height: auto;
+	width: 100%;
+}
+
+#footer-inner{
+	margin: 0 auto;
+	width: 1080px;
+	display: table;
+}
+
+#feedback{
+	margin-top: auto;
+	bottom: 0;
+	width: 70%;
+	float: left;
+		font-family: Arial,Helvetica,sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    color: #ffffff;
+	text-decoration: none;
+	display: table;
+	padding-top:10px;
+}
+#feedback a{
+	font-family: Arial,Helvetica,sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #ffffff;
+}
+#mail p{
+	margin:0;
+	padding: 0;
+}
+#mail {
+	
+	padding-top: 10px;
+}
+#feedback a:hover{
+    color: #ddd555;
+}
+#About{
+	padding-top:10%;
+	width: 30%;
+	text-align: right;
+	float:right;
+
+    color: #ffffff;
+}
+#footer-bottom{
+	box-shadow: 0 -1px 0 #000D1C;
+    background-color: #011e41;
+    border-top: 1px solid #1D3453;
+    padding: 1em 0;
+}
+
+
+
+.slider-box{
+  position:relative;
+  width:1080px;
+  height:auto;
+  overflow:hidden;
+  margin:0 auto;
+}
+.slider{
+  position:relative;
+  width:10000px;
+}
+.slider img{
+  float:left;
+}
+.slider-box .prev, .slider-box .next{
+  position:absolute;
+  top:200px;
+  display:block;
+  width:29px;
+  height:29px;
+  cursor:pointer;
+}
+.slider-box .prev{
+  left:10px;
+  background:url(/images/slider_controls.png) no-repeat 0 0;
+}
+.slider-box .next{
+  right:10px;
+  background:url(/images/slider_controls.png) no-repeat -29px 0;
+}
+
+.clear-fix{
+	clear:both;
+}
+#title{
+	padding-left:10px;
+	font-size:36px;
+	font-family: Arial,Helvetica,sans-serif;
+	border-bottom: 5px solid #0A2337;
+}
+.profile-item{
+	width:48%;
+	height:auto;
+	float:left;
+	padding-left:10px;	
+	padding-right:10px;
+	margin-bottom:50px;
+}
+.profile-name{
+	padding-top:10px;
+	font-family: Arial,Helvetica,sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #0a2337;
+}
+.profile-name img{
+	padding-right: 10px;
+	float:right;
+}
+
+#name A {
+    color: white;
+	
+	text-decoration:none; /* Цвет ссылок */
+   }
+#name A:visited {
+    color: white; 
+	
+	text-decoration:none;/* Цвет посещенных ссылок */
+   }
+#name A:active {
+    color: white;
+	
+	text-decoration:none;
+
+
